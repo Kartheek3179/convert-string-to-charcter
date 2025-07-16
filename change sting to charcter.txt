@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your input");
+        String input = sc.nextLine();
+        System.out.println("You have entered :" + input);
+        
+        char[] ch = input.toCharArray();
+        System.out.println("Using the Loop");
+        for(int i=0; i<ch.length;i++){
+            System.out.println(ch[i] + " ");
+        }
+    }
+}
